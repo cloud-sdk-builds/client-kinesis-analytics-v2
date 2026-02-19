@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-kinesis-analytics-v2`](https://www.npmjs.com/package/@aws-sdk/client-kinesis-analytics-v2/v/3.803.0).
+[`@aws-sdk/client-kinesis-analytics-v2`](https://www.npmjs.com/package/@aws-sdk/client-kinesis-analytics-v2/v/3.804.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-kinesis-analytics-v2@3.803.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-kinesis-analytics-v2@3.804.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-z2S0jv1PxTmVbrVisk5cnfZQ9wEO6sUh5RSXB622uHa9R/0R4K2vwbUjlIdyVb+f
+sha384-6vdqLLmmMk/mrW0XpaqjIi+3qhztakB8E6w7pzVB+F/Rl5WWgIcLtedavcmxJAqb
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-kinesis-analytics-v2": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-kinesis-analytics-v2@3.803.0/index.min.mjs"
+            "@aws-sdk/client-kinesis-analytics-v2": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-kinesis-analytics-v2@3.804.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-kinesis-analytics-v2@3.803.0/index.min.mjs": "sha384-z2S0jv1PxTmVbrVisk5cnfZQ9wEO6sUh5RSXB622uHa9R/0R4K2vwbUjlIdyVb+f"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-kinesis-analytics-v2@3.804.0/index.min.mjs": "sha384-6vdqLLmmMk/mrW0XpaqjIi+3qhztakB8E6w7pzVB+F/Rl5WWgIcLtedavcmxJAqb"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-kinesis-analytics-v2": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-kinesis-analytics-v2@3.803.0/index.min.mjs"
+                        "@aws-sdk/client-kinesis-analytics-v2": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-kinesis-analytics-v2@3.804.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-kinesis-analytics-v2@3.803.0/index.min.mjs": "sha384-z2S0jv1PxTmVbrVisk5cnfZQ9wEO6sUh5RSXB622uHa9R/0R4K2vwbUjlIdyVb+f"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-kinesis-analytics-v2@3.804.0/index.min.mjs": "sha384-6vdqLLmmMk/mrW0XpaqjIi+3qhztakB8E6w7pzVB+F/Rl5WWgIcLtedavcmxJAqb"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.803.0`)
+* Always pin to a specific version (`@3.804.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-kinesis-analytics-v2/blob/refs/tags/3.803.0/LICENSE
+https://github.com/cloud-sdk-builds/client-kinesis-analytics-v2/blob/refs/tags/3.804.0/LICENSE
 ```
 
 ---
